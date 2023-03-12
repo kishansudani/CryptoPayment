@@ -8,7 +8,9 @@ function Navbar() {
       <header className="flex md:flex-row flex-col px-3 lg:px-10 justify-between items-center pt-5 space-y-2">
         <div className="flex flex-row items-center">
           <img src="./binance-1.png" className="w-8 h-8 mr-3" />
-          <span className="text-2xl font-bold text-white">Binance Network</span>
+          <span className="text-2xl font-bold text-white">
+            Binance Test Network
+          </span>
         </div>
         {account ? (
           <div className="flex flex-row space-x-3 items-center text-white text-lg">
